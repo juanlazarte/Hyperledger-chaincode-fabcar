@@ -1,0 +1,34 @@
+[
+    {
+        "invoke": "initLedger",
+        "args": []
+    },
+    {
+        "query": "queryAllCars",
+        "args": []
+    },
+    {
+        "invoke": "createCar",
+        "args": ["CAR12", "Honda", "Civic", "black", "Dave"]
+    },
+    {
+        "invoke": "createCar",
+        "args": ["CAR13", "Chevrolet", "Agile", "black", "Juan"]
+    },
+    {
+        "query": "queryCar",
+        "args": ["CAR12"]
+    },
+    {
+        "query": "queryCar",
+        "args": ["CAR13"]
+    },
+    {
+        "invoke": "changeCarOwner",
+        "args": ["CAR12", "Alice"]
+    },
+    {
+        "invoke": "changeCarOwner",
+        "args": ["CAR13", "Marcelo"]
+    }
+]
